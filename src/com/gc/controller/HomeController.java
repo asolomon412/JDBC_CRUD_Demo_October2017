@@ -67,11 +67,11 @@ public class HomeController {
 		// Step 6: Process Results (optional)
 		while (rs.next()) {
 
-			String productID = rs.getString(1);
-			String prodName = rs.getString(2);
-			String supplierID = rs.getString(3);
+			String custID = rs.getString(1);
+			String compName = rs.getString(2);
+			String contact = rs.getString(3);
 
-			list.add(productID + " " + prodName + " " + supplierID);
+			list.add(custID + " " + compName + " " + contact);
 
 		}
 		
